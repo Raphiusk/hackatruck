@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+<title>Titulo da Página</title>
+
+</head>
+<body>
+ <header>		
+	<img src="img/OtakuOnTitan_topo.png" class="imgLogo">
+ </header>
+
+ <nav class="menu" style="a{color:#FF0000;} a:visited{color:#EE0000;}">		
+	<a href="OtakuOnTitan.html" target="_blank" class="botao"> 	Inicial		</a>
+	<a href="Destaques.html" target="_blank" class="botao"> 	Destaques	</a>
+	<a href="Catalogo.html" target="_blank" class="botao">	 	Catalogo 	</a>
+	<a href="Compras.html" target="_blank" class="botao"> 		Compras 	</a>	
+</nav>
+
+ <section class="apres">	
+ Compras
+	<form>
+		<fieldset class="fsDados">
+				<legend> Dados Pessoais </legend>	
+			
+			<div class="divLinha">
+				<label for="nome" class="colPri"> Nome: </label>
+				<input type="text" name="nome" class="inpGrande"/>
+			</div>
+			
+			<div class="divLinha">
+				<label for="endereco" class="colPri"> Endereço:</label>
+				<textarea name="endereco" class="inpGrande" ></textarea>
+			</div>
+			
+			<div class="meiaLinEsq">	
+					<label for="cpf" class="colPri">CPF:				</label><input type="number" name="cpf" class="impMedio" />
+					<label for="telefone" class="colPri">Telefone:	</label><input type="tel" name="telefone" class="impTelef" />		
+					<label for="celular" class="colPri">Celular:		</label><input type="tel" name="celular" class="impTelef" />		
+			</div>	
+				<fieldset class="fsDir">
+					<legend> Nascimento: </legend>
+					<input type="number" name="niverDia" class="numDD" /> 
+					/ 
+					<input type="number" name="niverMes" class="numDD" /> 
+					/	
+					<input type="number" name="niverAno" class="numQD" /> 
+				</fieldset>
+				<fieldset class="fsDir">
+					<legend> Genero </legend>
+						<input type="radio" id="mas" name="genero" value="mas" checked><label for="mas">Mas	</label>	
+						<input type="radio" id="fem" name="genero" value="fem" ><label for="fem"> 		Fem		</label>	
+						<input type="radio" id="outro" name="genero" value="outro" ><label for="outro"> Outro	</label>	
+				</fieldset>
+		</fieldset>
+		
+		<fieldset class="fsDados">
+			<legend> Seleção de Produtos e Pagamento </legend>	
+			<div class="divLinha">
+				<label for="produtos" class="colPri"> Produtos: </label>
+			
+			
+				<select id="produtos" name="produtos">
+						<option value="null">-----</option>
+						<optgroup label="Anime">
+							<option value="death_note_dvd_completo">	Death Note - DVD - Completo </option>
+							<option value="naruto_shippuden_t01box01">	Naruto Shippuden T01 Box 01 </option>
+							<option value="naruto_shippuden_t01box02">	Naruto Shippuden T01 Box 02 </option>
+						</optgroup>
+						<optgroup label="Mangá">
+							<option value="naruto_gold_55vol">			Naruto Gold - 55 vol. 		</option>
+							<option value="attack_on_titan_vol_1-4">	Attack On Titan - Vol. 1-4	</option>
+							<option value="attack_on_titan_vol_5-8">	Attack On Titan - Vol. 5-8	</option>
+							<option value="naruto_box_p01_vol_1-27"> 	Naruto Box P01 Vol 1-27 	</option>
+						</optgroup>
+						<optgroup label="Action Figure">
+							<option value="naruto_shippuden_pvc"> 		Naruto Shippuden - PVC 		</option>
+							<option value="ryuk_death_note_pvc"> 		Ryuk - Death Note - PVC		</option>
+						</optgroup>
+					</select>
+					<input type="submit" value="comprar" class="botao"/>  
+				</div>
+				
+		<div class="meiaLinEsq">
+			<fieldset class="fsEsq">
+				<legend> Dados do Cartão:</legend>
+				<div class="meiaLinEsq">
+						<fieldset class="fsEsq"> 
+							<legend> Bandeira:</legend>					
+								<input type="radio" id="visa" name="bandeiras" value="visa" checked>
+								<label for="visa">Visa</label>
+							
+								<input type="radio" id="master" name="bandeiras" value="master">
+								<label for="master">Master</label>
+							
+								<input type="radio" id="amex" name="bandeiras" value="amex">
+								<label for="amex">Amex</label>
+						</fieldset>
+				</div>
+				
+				<div class="meiaLinEsq">
+					<div class="meiaLinEsq">
+						<label for="validade" class="colPri"> Validade: </label>
+						<input type="number" name="mesValidadeCartao" class="numDD" /> / <input type="number" name="anoValidadeCartao" class="numQD" />			
+					</div>
+					<div class="meiaLinEsq">
+						<label for="numeroCartao" class="colPri">Número: </label>
+						<input type="number" name="numeroCartao" class="impNCC" />	
+					</div>
+				</div>
+			</fieldset>
+		</div>
+		
+		<div class="meiaLinDir">
+				<textarea readonly class=""></textarea>
+			
+				<label for="valor" class="colPri"> Valor: R$ </label>
+				<input type="text" name="valor" class="impMedio" readonly />
+		</div>
+		</fieldset>
+		<div class="botoes">
+		<input type="submit" value="Enviar" /> <input type="reset" value="Limpar" />
+		
+	</form>
+ </section>
+
+ <footer>	
+	<address class="ender">Avenida Akihabara, 123 / Tel(21)91234-5678 / <a href="mailto:contato@manganime.com.br">contato@manganime.com.br</a></address>
+</footer>
+</body>
+</html>

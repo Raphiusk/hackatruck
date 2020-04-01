@@ -1,0 +1,213 @@
+body	{
+	background-color: #FFFFFF; /**/
+	color: #BB0D0D; /**/
+	font-size: 16px; /**/
+	font-family: 'Open Sans',sans-serif;
+}
+
+header 	{ 
+	display: block; /**/
+	padding: 0px; 
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-align: center;	
+}
+
+nav 	{ 
+	display: block; /**/
+	border-bottom: 2px solid; /**/
+	padding: 4px; /**/
+	padding-bottom: 4px; /**/
+	margin: 2px; /**/
+	text-align: center; /**/
+	font-size: 18px; /**/
+	font-family: 'Muli', sans-serif;	
+}
+
+section { 
+	display: block; /**/
+}
+
+footer	{ 
+	clear: both; /**/
+}
+
+a		{
+	text-decoration: none; /**/
+	color: #DD0000; /**/
+}
+
+a:visited{
+	color: #CC0000 /**/
+}
+
+.ender	{
+	text-align: center; /**/
+	font-size: 14px; /**/
+	border-top: 2px solid; /**/
+	padding: 10px; /**/
+	padding-top: 10px; /**/
+}
+
+.imgLogo {
+	margin-bottom: 4px; /**/
+	padding-bottom: 4px; /**/
+}
+
+.apres {
+	text-align: center; /**/
+	font-size: 18px; /**/
+}
+
+.menu	{
+	margin: 1px auto;
+}
+
+.botao {
+	margin: 0px 4px 0px 0px;
+	padding: 0px 4px 0px 0px;
+	width: 100px;
+	display: inline-block;
+}
+/*fim questão 2 e início questão 3*/
+.lisDestaq {
+	color: #2255AA; /**/
+	list-style-type: katakana;	/**/
+}
+
+.itemDestaq {
+	width: 430px; /**/
+	height: 120px; /**/
+ 	padding: 10px; /**/
+}
+
+.itemDesProd {
+	list-style-type: square; /**/
+}
+
+.imgDestaq{
+	float: right; /**/
+}
+.precoVelho {
+	text-decoration-line: line-through; /**/
+}
+
+.preco {
+	color: #FF0000; /**/
+	font-weight: bold; /**/
+}
+/*Fim questão 3 e início questão 4 */
+.tabInfo	{
+	border: 1px solid;
+	border-collapse: collapse;
+	background-color: #FFFFCC;
+	color: #2255AA;
+	margin-top: 6px;
+	font-family: 'Arial', 'Ubuntu';
+}
+
+td, th		{
+	border: 2px solid #000000;
+	padding: 6px 12px 6px 12px;
+}
+
+.linTH	{
+	color: #FFFFFF;
+	background-color: #0077BB;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.colTH	{
+	color: #005599;
+	background-color: #FFCC77;
+	text-align: left;
+}
+
+.preco	{
+	color: #CC0000;
+	font-weight: bold;
+	vertical-align: middle;
+	
+}
+	
+/*Fim questão 4 e início questão 5 */
+
+fieldset	{
+	color: #2255AA;
+	background-color: #FFFFCC;
+	margin: 20px 10px 0px 10px;
+}
+
+.fsDados	{
+	width: 510px;
+}
+
+.fsEsq		{
+	float: left;
+	margin: 0px 0px 6px 0px;
+}
+
+.fsDir		{
+	float: right;
+	width: 220px;
+	margin: 0px 0px 6px 0px;
+}
+
+.meiaLinDir	{
+	width: 220px;
+	float: right;
+	margin-bottom: 6px;
+}
+
+.meiaLinEsq	{
+	width: 220px;
+	float: left;
+	margin-top: 6px;
+	margin-bottom: 18px;	
+}
+
+.divLinha	{
+	width: 490px;
+	margin-bottom: 18px;
+}
+
+.colPri		{
+	float: left;
+	display: block;
+	width: 84px;
+}
+
+.elemDir		{
+	float: right;
+	display: block;
+}
+
+.botoes		{
+	text-align: left;
+	margin: 12px 10px 12px 10px;
+}
+
+.inpGrande	{
+	width: 390px;
+}
+
+.impMedio	{
+	width: 120px;
+}
+
+.impTelef	{
+	width: 90px;
+}
+
+.numDD		{
+	width: 40px;
+}
+
+.numQD		{
+	width: 60px;
+}
+
+.impNCC		{
+	width: 130px;
+}
